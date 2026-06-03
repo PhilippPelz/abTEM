@@ -10,6 +10,7 @@ from abtem.detectors import (
     AnnularDetector,
     FlexibleAnnularDetector,
     PixelatedDetector,
+    RadialSensitivity,
     SegmentedDetector,
     WavesDetector,
 )
@@ -45,6 +46,7 @@ __all__ = [
     "FlexibleAnnularDetector",
     "PixelatedDetector",
     "WavesDetector",
+    "RadialSensitivity",
     "Images",
     "DiffractionPatterns",
     "RealSpaceLineProfiles",
